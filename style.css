@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+  border-bottom: solid black 5px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: cursive;
+}
+
+h4 {
+  text-align: center;
+  letter-spacing: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  text-align: left;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  padding: 10px 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills-container {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  align-content: stretch;
+  justify-content: center;
+  gap: 20px;
+}
+.skill-text {
+  margin: 10px;
+  justify-content: flex-start;
+  align-content: space-around;
+}
+
+.skill-symbol {
+  margin: 10px;
+  justify-content: flex-end;
+  align-content: space-around;
+}
+
+.skill-text span {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-around;
+}
+
+.skill-symbol span {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.icons-row {
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+
+.icons-row a {
+  margin: 20px;
+}
